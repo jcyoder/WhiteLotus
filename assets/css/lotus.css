@@ -1,0 +1,20 @@
+//  css styles for White Lotus 
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	width: 100%;
+	font-family: Arial, Sans-Serif;
+	background-color: rgb(128, 128,128);
+}
+
+.container {
+	width: 80%;
+	margin: 20px auto 20px auto;
+	background-image: url("../images/body-background.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
