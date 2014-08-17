@@ -17,7 +17,7 @@ div, section, article, header, nav, ul, p {
 
 body {
 	width: 100%;
-	font-family: Arial, Sans-Serif;
+	font-family: "Adobe Caslon Pro", Arial, Sans-Serif;
 	background-color: rgb(128, 128,128);
 }
 
@@ -40,20 +40,56 @@ body {
 	display: block;
 }
 
+.logo {
+
+	margin: -15px  20px 0px 20px;
+}
+/* global navigation  and page nav */
+
 nav.global-nav {
 	float: right;
 	margin-top: 15px;
 	
 }
 
+.page-nav {
+	width: 100%;
+	height: 75px;
+	clear: right;
+	display: block;
+	margin: 10px 0px;
+	float: right;
+	border-top: 1px dotted black;
+	border-bottom: 1px dotted black;
 
+}
 
-ul.global-list  li {
+ul.page-list {
+	float: right;
+	margin-right: 20px;
+	margin-top: 25px;
+	/* border: 1px solid blue; */
+}
+
+ul.global-list  li, ul.page-list li {
 	display: inline;
 	margin-right: 15px;
 
 }
 
-ul.global-list  li a {
+ul.global-list  li a, ul.page-list li a {
 	text-decoration: none;
+}
+
+ul.page-list li a {
+	font-style:normal;
+	font-size: 16pt;
+	font-weight: bold;
+	color: black;
+	/* border: 1px solid red; */
+}
+
+ul.page-list li a:hover {
+	border-bottom: 3px solid black;
+
 }
