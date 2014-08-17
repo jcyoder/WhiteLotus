@@ -5,6 +5,16 @@
 	padding: 0px;
 }
 
+div, section, article, header, nav, ul, p {
+	display: block;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
 body {
 	width: 100%;
 	font-family: Arial, Sans-Serif;
@@ -12,9 +22,38 @@ body {
 }
 
 .container {
-	width: 80%;
+	width: 75%;
 	margin: 20px auto 20px auto;
 	background-image: url("../images/body-background.jpg");
 	background-repeat: no-repeat;
 	background-position: left top;
+	background-size: 100%;
+}
+
+.search-container {
+	float: right;
+	margin: 30px 20px;
+
+}
+
+.product-box {
+	display: block;
+}
+
+nav.global-nav {
+	float: right;
+	margin-top: 15px;
+	
+}
+
+
+
+ul.global-list  li {
+	display: inline;
+	margin-right: 15px;
+
+}
+
+ul.global-list  li a {
+	text-decoration: none;
 }
