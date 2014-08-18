@@ -32,12 +32,13 @@ body {
 
 .search-container {
 	float: right;
-	margin: 30px 20px;
+	margin: 30px 20px 10px 20px;
 
 }
 
 .product-box {
 	display: block;
+	height: 22px;
 }
 
 .logo {
@@ -57,7 +58,6 @@ nav.global-nav {
 	height: 75px;
 	clear: right;
 	display: block;
-	margin: 10px 0px;
 	float: right;
 	border-top: 1px dotted black;
 	border-bottom: 1px dotted black;
@@ -74,22 +74,47 @@ ul.page-list {
 ul.global-list  li, ul.page-list li {
 	display: inline;
 	margin-right: 15px;
+	/* border: 1px solid orange; */
 
 }
 
 ul.global-list  li a, ul.page-list li a {
 	text-decoration: none;
+	font-style:normal;
+	color: black;
+}
+
+ul.global-list  li a {
+	font-size: 10pt;
+	font-weight: 600;
+}
+
+ul.global-list  li a:hover {
+	text-decoration: underline;
+}
+
+.icons {
+	margin-top: 4px;
 }
 
 ul.page-list li a {
-	font-style:normal;
 	font-size: 16pt;
 	font-weight: bold;
-	color: black;
 	/* border: 1px solid red; */
 }
 
-ul.page-list li a:hover {
+ul.page-list li:hover {
 	border-bottom: 3px solid black;
 
+}
+
+/* Summary of a product */
+.summary-feature-focus {
+	width: 50%;
+	float: right;
+	margin-right: 30px;
+}
+
+.featured-products {
+	clear: right;
 }
